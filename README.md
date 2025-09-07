@@ -119,7 +119,6 @@ Please find their README.md files to run respective models.
 
 --- ---
 
-
 #### 4) Detection performance on Top-10 mutation operators across various EMD techniques (x-axis shows mutation operators and y-axis shows the correct detection percentage).
 
 ##### 4-1) Performance of 4 EMD categories on Top-10 mutation operators on Java.
@@ -142,7 +141,17 @@ Please find their README.md files to run respective models.
 
 --- ---
 
-#### 5) t-SNE plots showing the embedding of mutant pairs. EQ/NEQ represents equivalent/non-equivalent, respectively.
+#### 5)  The performance of fine-tuned LLMs on cross-lingual equivalent mutant detection.
+<img src="./figs/rq5.png" alt="drawing" width="600">
+
+--- ---
+
+#### 6)  The performance of fine-tuned LLMs on cross-lingual equivalent mutant detection for top-10 operator.
+<img src="./figs/rq5-radar.png" alt="drawing" width="600">
+
+--- ---
+
+#### 7) t-SNE plots showing the embedding of mutant pairs. EQ/NEQ represents equivalent/non-equivalent, respectively.
 <img src="./figs/embedding.png" alt="drawing" width="600">
 
 --- ---
