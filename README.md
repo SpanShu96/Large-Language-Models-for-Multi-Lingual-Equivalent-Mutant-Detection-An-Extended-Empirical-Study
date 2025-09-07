@@ -31,7 +31,7 @@ In this study, we empirically investigate various LLMs with different learning s
 ## 2. Dataset
 ###  (1) Statistics of Java and C programs from MutantBench
 
-<img src="./figs/dataset.png" alt="drawing" width="600">
+<img src="./figs/dataset_new.png" alt="drawing" width="600">
 
 
 
