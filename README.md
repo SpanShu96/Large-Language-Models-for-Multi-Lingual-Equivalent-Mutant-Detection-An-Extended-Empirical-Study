@@ -95,8 +95,7 @@ Please find their README.md files to run respective models.
 
 **How to run the models on different programming language**   
 We still use *pre-trained UniXCoder* as an example.  
-For running the models on C, you can change the `--code_db_file`, `--train_data_file`, `--eval_data_file`, and `--test_data_file` (from Java dataset to C dataset) on `train.py` and `test.py`.
-
+For running the models on C, you can change the `--code_db_file`, `--train_data_file`, `--eval_data_file`, and `--test_data_file` (from Java dataset to C dataset) on `train.py` and `test.py`.  
 
 --- --- ---
 
