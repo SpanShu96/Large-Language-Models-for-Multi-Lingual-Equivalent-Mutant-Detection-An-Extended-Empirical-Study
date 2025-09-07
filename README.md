@@ -35,16 +35,16 @@ In this study, we empirically investigate various LLMs with different learning s
 
 
 
-We construct a (Java and C) Equivalent Mutant Detection dataset based on the [MutantBench](https://github.com/MutantBench/MutantBench), which consists of [*MutantBench<sub>train</sub>*](dataset/Mutant_A_hierarchical.csv) for fine-tuning and [*MutantBench<sub>test</sub>*](dataset/Mutant_B_hierarchical.csv) for testing. 
+We construct a (Java and C) Equivalent Mutant Detection dataset based on the [MutantBench](https://github.com/MutantBench/MutantBench), which consists of [*MutantBench<sub>train-Java</sub>*](dataset/Mutant_A_hierarchical_java.csv) and [*MutantBench<sub>train-C</sub>*](dataset/Mutant_A_hierarchical_c.csv) for fine-tuning and [*MutantBench<sub>test-Java</sub>*](dataset/Mutant_B_hierarchical_java.csv) and [*MutantBench<sub>test-C</sub>*](dataset/Mutant_B_hierarchical_c.csv) for testing. 
 Specifically, the dataset can be divided into two parts:
 
-* **Codebase**  (i.e., [`./dataset/MutantBench_code_db_java.csv`](dataset/MutantBench_code_db_java.csv)) contains 3 columns that we used to conduct our experiments: 
+* **Codebase**  (i.e., [`./dataset/MutantBench_code_db_java.csv`](dataset/MutantBench_code_db_java.csv) and [`./dataset/MutantBench_code_db_c.csv`](dataset/MutantBench_code_db_c.csv)) contains 3 columns that we used to conduct our experiments: 
   (1) id (int): The code id is used for retrieving the Java methods. 
   (2) code (str): The original method/mutant written in Java. 
   (3) operator (str): The type of mutation operators. 
 
 
-* **Mutant-Pair Datasets** (i.e., [*MutantBench<sub>train</sub>*](dataset/Mutant_A_hierarchical.csv) and [*MutantBench<sub>test</sub>*](dataset/Mutant_B_hierarchical.csv)) contains 4 columns that we used to conduct our experiments: 
+* **Mutant-Pair Datasets** (e.g., [*MutantBench<sub>train-Java</sub>*](dataset/Mutant_A_hierarchical_java.csv) and [*MutantBench<sub>test-Java</sub>*](dataset/Mutant_B_hierarchical_java.csv)) contains 4 columns that we used to conduct our experiments: 
   (1) id (int): The id of mutant pair. 
   (2) code_id_1 (int): The code id is used to retrieve the Java methods in Codebase. 
   (3) code_id_2 (int): The code id is used to retrievethe Java methods in Codebase. 
