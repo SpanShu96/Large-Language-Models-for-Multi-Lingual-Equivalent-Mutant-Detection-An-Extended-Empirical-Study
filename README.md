@@ -35,7 +35,7 @@ In this study, we empirically investigate various LLMs with different learning s
 
 
 
-We construct a (Java) Equivalent Mutant Detection dataset based on the [MutantBench](https://github.com/MutantBench/MutantBench), which consists of [*MutantBench<sub>train</sub>*](dataset/Mutant_A_hierarchical.csv) for fine-tuning and [*MutantBench<sub>test</sub>*](dataset/Mutant_B_hierarchical.csv) for testing. 
+We construct a (Java and C) Equivalent Mutant Detection dataset based on the [MutantBench](https://github.com/MutantBench/MutantBench), which consists of [*MutantBench<sub>train</sub>*](dataset/Mutant_A_hierarchical.csv) for fine-tuning and [*MutantBench<sub>test</sub>*](dataset/Mutant_B_hierarchical.csv) for testing. 
 Specifically, the dataset can be divided into two parts:
 
 * **Codebase**  (i.e., [`./dataset/MutantBench_code_db_java.csv`](dataset/MutantBench_code_db_java.csv)) contains 3 columns that we used to conduct our experiments: 
