@@ -71,7 +71,7 @@ For running the **closed-source LLMs** (i.e., ChatGPT and Text-Embedding Models)
 
 
 ### Demo
-Let's take the *pre-trained UniXCoder* as an example. 
+Let's take the *pre-trained UniXCoder* on Java EMD as an example. 
 The `./dataset` folder contains the training and test data. 
 
 #### (1) Training phase
@@ -93,9 +93,14 @@ python test.py;
 All the code can be accessed from respective directories.
 Please find their README.md files to run respective models.
 
+**How to run the models on different programming language**   
+We still use *pre-trained UniXCoder* as an example.  
+For running the models on C, you can change the `--code_db_file`, `--train_data_file`, `--eval_data_file`, and `--test_data_file` (from Java dataset to C dataset) on `train.py` and `test.py`.
+
+
 --- --- ---
 
-## 5. Experimental Results
+## 6. Experimental Results
 --- ---
 #### 1)  The performance of baselines and state-of-the-art LLMs on equivalent mutant detection.
 <img src="./figs/rq1.png" alt="drawing" width="600">
