@@ -107,20 +107,25 @@ Please find their README.md files to run respective models.
 
 --- ---
 
-#### 3) Unique correct detections (↑) and unique incorrect detections (↓) across studied EMD techniques.
-<img src="./figs/rq3_veen.png" alt="drawing" width="1200">
+#### 3) Unique correct detections (↑) and unique incorrect detections (↓) across studied EMD techniques.  
+
+##### 3-1) Unique correct detections (↑) and unique incorrect detections (↓) on Java. 
+<img src="./figs/rq3-1.png" alt="drawing" width="1200">
+
+##### 3-2) Unique correct detections (↑) and unique incorrect detections (↓) on C.  
+<img src="./figs/rq3-2.png" alt="drawing" width="1200">
 
 --- ---
 
 
 #### 4) Detection performance on Top-10 mutation operators across various EMD techniques (x-axis shows mutation operators and y-axis shows the correct detection percentage).
 
-##### 4-1) Performance of 4 EMD categories on Top-10 mutation operators. Detailed results for all 28 mutation operators are available in [`./results/EMD_categories_all_operators.csv`](dataset/EMD_categories_all_operators.csv).
+##### 4-1) Performance of 4 EMD categories on Top-10 mutation operators.
 <img src="./figs/rq3_bar1.png" alt="drawing" width="1000">
 
 --- ---
 
-##### 4-2) Performance of 5 LLM strategies on Top-10 mutation operators. Detailed results for all 28 mutation operators are available in [`./results/LLM_strategies_all_operators.csv`](./results/LLM_strategies_all_operators.csv).
+##### 4-2) Performance of 5 LLM strategies on Top-10 mutation operators. 
 <img src="./figs/rq3_bar2.png" alt="drawing" width="1000">
 
 --- ---
