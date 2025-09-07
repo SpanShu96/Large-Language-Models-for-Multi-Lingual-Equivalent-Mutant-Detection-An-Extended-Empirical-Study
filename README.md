@@ -1,7 +1,5 @@
 # Large-Language-Models-for-Multi-Lingual-Equivalent-Mutant-Detection-An-Extended-Empirical-Study
 
-<img src="./figs/overview.png" alt="drawing" width="800">
-
 
 In this study, we empirically investigate various LLMs with different learning strategies for equivalent mutant detection. This is a replication package for our empirical study. 
 
