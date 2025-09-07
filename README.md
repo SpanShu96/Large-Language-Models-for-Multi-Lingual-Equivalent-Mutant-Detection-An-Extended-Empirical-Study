@@ -112,6 +112,8 @@ Please find their README.md files to run respective models.
 ##### 3-1) Unique correct detections (↑) and unique incorrect detections (↓) on Java. 
 <img src="./figs/rq3-1.png" alt="drawing" width="1200">
 
+--- ---
+
 ##### 3-2) Unique correct detections (↑) and unique incorrect detections (↓) on C.  
 <img src="./figs/rq3-2.png" alt="drawing" width="1200">
 
@@ -120,13 +122,23 @@ Please find their README.md files to run respective models.
 
 #### 4) Detection performance on Top-10 mutation operators across various EMD techniques (x-axis shows mutation operators and y-axis shows the correct detection percentage).
 
-##### 4-1) Performance of 4 EMD categories on Top-10 mutation operators.
-<img src="./figs/rq3_bar1.png" alt="drawing" width="1000">
+##### 4-1) Performance of 4 EMD categories on Top-10 mutation operators on Java.
+<img src="./figs/rq3-barplot1.png" alt="drawing" width="1000">
 
 --- ---
 
-##### 4-2) Performance of 5 LLM strategies on Top-10 mutation operators. 
-<img src="./figs/rq3_bar2.png" alt="drawing" width="1000">
+##### 4-2) Performance of 5 LLM strategies on Top-10 mutation operators on Java. 
+<img src="./figs/rq3-barplot2.png" alt="drawing" width="1000">
+
+--- ---
+
+##### 4-3) Performance of 4 EMD categories on Top-10 mutation operators on C.
+<img src="./figs/rq3-barplot3.png" alt="drawing" width="1000">
+
+--- ---
+
+##### 4-4) Performance of 5 LLM strategies on Top-10 mutation operators on C. 
+<img src="./figs/rq3-barplot4.png" alt="drawing" width="1000">
 
 --- ---
 
