@@ -162,7 +162,7 @@ For running the models on C, you can change the `--code_db_file`, `--train_data_
 
 #### 8) Case study of incorrect LLM detection.
 <img src="./figs/case_study.png" alt="drawing" width="600">
-The Manual Study folder include all manual verfication results across 129 incorrect LLM detection.
+Note that the Manual Study folder include all manual verfication results across 129 incorrect LLM detection.
 
 --- ---
 
