@@ -1,0 +1,5 @@
+The columns code_id_1 and code_id_2 indicate the original code id and mutant code id.  
+The columns code_1 and code_2 indicate the original code and mutant code.  
+The columns LLM-based Technique, Tree-based NN Technique, ML-based Technique, and Compiler-based Technique indicate the detection mask, where 0 indicate incorrect detection and 1 indicate correct detecion.  
+The column operator-type indicate the category of mutant operator.
+The column failure_category indicate the category of incorrect LLM detection.
